@@ -10,7 +10,6 @@ import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers';
 export default defineConfig({
   plugins: [
     vue(),
-    VueDevTools(),
     Components({
       resolvers: [
         AntDesignVueResolver({

@@ -1,3 +1,6 @@
-@tailwind base;
-@tailwind components;
+@import "tailwindcss";
+@import "tailwindcss";
+@import "./theme.css";
+/* Your existing styles below */
 @tailwind utilities;
+@tailwind components;
