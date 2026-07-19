@@ -295,7 +295,7 @@ import {
   Edit,
   Eye,
   Trash2
-} from 'lucide-vue-next'
+} from '@lucide/vue'
 
 const clientsStore = useClientsStore()
 

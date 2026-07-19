@@ -1,4 +1,3 @@
-# Node.js
 # Logs
 logs
 *.log
@@ -8,11 +7,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Dependency directories
+# Dependencies
 node_modules/
-
-# Production dependencies (for example, when using `npm install --production`)
-# /node_modules
 
 # Misc
 .npm
@@ -20,63 +16,40 @@ node_modules/
 .stylelintcache
 .env
 .env.*.local
-.DS_Store # macOS specific
+.DS_Store
 
 # TypeScript
 *.tsbuildinfo
 
-# Vue.js Specific
+# Auto-generated (unplugin-vue-components)
+components.d.ts
+
 # Build outputs
 /dist/
 /dist-ssr/
-/public/dist/ # If you have a 'public' directory for built assets
-
-# Vite specific (if using Vite)
 .vite/
-
-# Nuxt.js specific (if using Nuxt)
-.nuxt/
-.output/
-
-# Vuepress specific (if using Vuepress)
-.vuepress/.cache/
-.vuepress/.temp/
 
 # Testing
 /coverage/
 /cypress/videos/
 /cypress/screenshots/
-/test-results/ # Common for various testing frameworks
+/test-results/
 
-# IDE and Editor Directories and Files
-# VS Code
-.vscode/
-!.vscode/extensions.json # Keep extensions.json to recommend extensions to collaborators
-!.vscode/settings.json # You might want to version-control some shared settings
+# IDE / Editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
-
-# IntelliJ / WebStorm
 .idea/
 *.iml
 *.iws
 *.ipr
-
-# Sublime Text
 *.sublime-project
 *.sublime-workspace
+*.swp
+*.bak
+*.local
 
-# Other common IDE/Editor files
-*.swp # vim swap files
-*.bak # backup files
-*.local # local configuration files (e.g., development specific configs)
-
-# Editor preferences
-# Example: If you use EditorConfig and it generates files
-.editorconfig
-
-# Local development server files
-# Example: If your server creates a temporary file
+# Local temp
 tmp/
-
-# If you have specific generated files not covered above, add them here.

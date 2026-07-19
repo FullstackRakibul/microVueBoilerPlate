@@ -46,7 +46,7 @@ import {
   Truck,
   Settings,
   LogOut
-} from 'lucide-vue-next'
+} from '@lucide/vue'
 
 const router = useRouter()
 const authStore = useAuthStore()

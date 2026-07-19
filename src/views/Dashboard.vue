@@ -120,7 +120,7 @@ import {
   TrendingUp,
   Users,
   Building2
-} from 'lucide-vue-next'
+} from '@lucide/vue'
 import { Chart, registerables } from 'chart.js'
 
 Chart.register(...registerables)

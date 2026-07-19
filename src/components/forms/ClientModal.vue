@@ -199,7 +199,7 @@
 <script setup lang="ts">
 import { ref, watch, computed } from 'vue'
 import type { Client } from '@/stores/clients'
-import { X, User, Building2, FileText } from 'lucide-vue-next'
+import { X, User, Building2, FileText } from '@lucide/vue'
 
 interface Props {
   client?: Client | null
